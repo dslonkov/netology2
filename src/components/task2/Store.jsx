@@ -8,7 +8,7 @@ const Store = () => {
 
   const [icon, setIcon] = useState(true);
 
-  let pic = icon ? 'view_list' : 'view_module';
+  let pic = icon ? 'view_module' : 'view_list';
 
   return (
     <>
@@ -31,3 +31,4 @@ const Store = () => {
 };
 
 export default Store;
+
