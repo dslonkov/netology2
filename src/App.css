@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.App {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.toolbarList {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.toolbarItem {
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.active {
+    background: #ccc;
+}
+
+.imgList {
+    padding-top: 100px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.material-icons {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 50px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 150px;
+    padding-top: 20px;
+}
+
+.card {
+    width: 280px;
+    height: 290px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    color: red;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.button {
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    column-gap: 50px;
+}
+
+.shopItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+
+.shopImg {
+    display: block;
+    width: 130px;
+    height: 130px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
